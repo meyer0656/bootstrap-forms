@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Appalachian Trail Quiz</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>The Appalachian Trail Quiz</h1>
+          <p>The Appalachian Trail is part of a collection of National Scenic Trails throughout the United States. Read the Wikipedia article and test your knowledge below.</p>
+          <p>Wikipedia: <a href="https://en.wikipedia.org/wiki/Appalachian_Trail">Appalachian Trail</a></p>
+          <form>
+            <h4>Question 1</h4>
+              <div class="form-group">
+                <div>
+                  <label>In which year was the Appalachian Trail completed?</label>
+                </div>
+                <div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="year" value="1921">1921
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="year" value="1930">1930
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="year" value="1931">1931
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="year" value="1937">1937
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <h4>Question 2</h4>
+                <div class="form-group">
+                  <label for="states">How many states does the Appalachian Trail run cross through?</label>
+                  <div>
+                    <input type="text" name=states id="states">
+                  </div>
+                </div>
+              <h4>Question 3</h4>
+                <div class="form-group">
+                  <label for="animals">Name three animals a hiker might see while on the trail.</label>
+                    <div>
+                      <textarea id="animals" name="animals" rows="3"></textarea>
+                    </div>
+                </div>
+              <h4>Question 4</h4>
+                <div class="form-group">
+                  <div>
+                    <label>Which of the following people were fundamental to the completion of the trail?</label>
+                  </div>
+                  <div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="people" value="jerry-garcia">Jerry Garcia
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="people" value="myron-avery">Myron Avery
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="people" value="abbie-hoffman">Abbie Hoffman
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="people" value="benton-mackaye">Benton MacKaye
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              <h4>Question 5</h4>
+                <div class="form-group">
+                  <div>
+                    <label>Which state is home to the Hundred-Mile Wilderness?</label>
+                  </div>
+                  <div>
+                    <div class="form-check">
+                      <select class="form-check-label" id="100mile">
+                        <option value="nc">North Carolina</option>
+                        <option value="me">Maine</option>
+                        <option value="va">Virginia</option>
+                        <option value="nh">New Hampshire</option>
+                        <option value="vt">Vermont</option>
+                        <option value="ga">Georgia</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              <h4>Question 6</h4>
+                <div class="form-group">
+                  <label for="hitchhiker">What is the pejorative used to describe a hiker who hitchhikes around portions of the trail?</label>
+                    <div>
+                      <input type="text" name="hitchhiker" id="hitchhiker">
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="submit" value="submit">Submit</button>
+                <button class="btn btn-warning" type="reset" value="reset">Reset</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
